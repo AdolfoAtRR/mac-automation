@@ -41,7 +41,10 @@
 #        - iterm2
 #        - kindle
         - kitty
+        - maccy
 #        - ngrok
+        - notion
+        - pgadmin4
 #        - slack
 #        - sublime-text
 #        - telegram
@@ -57,6 +60,7 @@
 #          'automake',
 #          'aws-iam-authenticator',
           'awscli',
+          'git-remote-codecommit',
           'powerlevel10k',
 #          'bfg',
           'cfn-lint',
@@ -67,6 +71,7 @@
 #          'dnsmasq',
           'fzf',
           'gh',
+          'git-delta',
           'gnu-time',
           'gnu-sed',
           'gpg',
@@ -97,6 +102,7 @@
           'yarn',
 #          'zlib',
           'zsh',
+          'zsh-vi-mode'
         ]
         state: present
         update_homebrew: yes
