@@ -33,6 +33,7 @@
 #        - android-sdk
 #        - android-studio
 #        - datagrip
+        - dbeaver-community
 #        - docker
 #        - dropbox
 #        - figma
@@ -75,6 +76,7 @@
           'gnu-time',
           'gnu-sed',
           'gpg',
+          'gzip',
           'helm',
 #          'heroku',
           'htop',
@@ -85,6 +87,7 @@
 #          'libtool',
 #          'libxslt',
 #          'libyaml',
+          'lzop',
 #          'mas',
 #          'openssl' ,
 #          'pkg-config',
@@ -94,6 +97,7 @@
 #          'redis',
 #          'sqlite3',
 #          'tmux',
+          'tree',
 #          'unixodbc',
 #          'unzip',
           'vim',
@@ -102,7 +106,6 @@
           'yarn',
 #          'zlib',
           'zsh',
-          'zsh-vi-mode'
         ]
         state: present
         update_homebrew: yes
